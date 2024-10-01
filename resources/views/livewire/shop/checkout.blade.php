@@ -6,7 +6,7 @@
 
                 <div class="card-body">
                     @if ($formCheckout)
-                        <form wire:submit.prevent="checkout" method="POST" enctype="multipart/form-data">
+                        <form wire:submit.prevent="checkout">
                             <div class="form-group">
                                 <div class="row g-3 mb-3">
                                     <div class="col-md-6">
