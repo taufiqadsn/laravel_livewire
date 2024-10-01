@@ -2,7 +2,7 @@
     <div class="col-md-8">
         <div class="card">
             <div class="card-body">
-                <form wire:submit.prevent="updateProductHandler" method="post" enctype="multipart/form-data">
+                <form wire:submit.prevent="update" method="post" enctype="multipart/form-data">
                     <div class="input-group mb-3">
                         <div class="form-row">
                             <div class="col mb-3">
